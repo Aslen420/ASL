@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstring>
-#include "src/toCelsius.hpp"
-#include "src/toFahrenheit.hpp"
+#include "src/toCelsius.h"
+#include "src/toFahrenheit.h"
 
 int main(int argc, char* argv[]) {
     if (strcmp(argv[1], "help")==0)
