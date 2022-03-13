@@ -1,9 +1,9 @@
-#ifndef HEADER_FILE
-#define HEADER_FILE
+#ifndef FAHRENHEIT_H
+#define FAHRENHEIT_H
 
 #include <stdio.h>
 
-int toFahrenheit() {
+void toFahrenheit() {
 	printf("Enter a number to convert to fahrenheit : ");
 	double num1;
 	scanf("%lf", &num1);
