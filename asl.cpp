@@ -16,6 +16,10 @@ int main(int argc, char* argv[]) {
     else if (strcmp(argv[1], "ch")==0) {
         toCelsius();
     }
+    else if (strcmp(argv[1], "terminal-editor")==0) {
+        std::cout << "Please note this feature only works on macOS and Linux systems." << std::endl;
+        termEdit();
+    }
     else {
         std::cout << argv[0] << argv[1];
     }
