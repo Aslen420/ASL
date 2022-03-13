@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-int main() {
+int toFahrenheit() {
 	printf("Enter a number to convert to fahrenheit : ");
 	double num1;
 	scanf("%lf", &num1);
