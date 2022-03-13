@@ -7,3 +7,5 @@ Basic Calculator
 Geometry Calculator
 Temp Converter
 Measurement Converter
+# L zealots
+Yeah a lot of this shit will be written with C inside of C++ files, but deal with it weirdo
