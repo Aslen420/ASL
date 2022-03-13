@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-int main() {
+int toCelsius() {
 	printf("Enter a number to convert to celsius : ");
 	double num1;
 	scanf("%lf", &num1);
