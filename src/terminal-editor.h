@@ -1,8 +1,11 @@
+#ifndef TERMINAL_H
+#define TERMINAL_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-int termEdit() {
+void termEdit() {
     char yn;
     printf("This script will allow you to change your terminal\n");
     printf("Would you like to continue? y\\n : ");
@@ -35,3 +38,4 @@ int termEdit() {
     }
     
 }
+#endif
