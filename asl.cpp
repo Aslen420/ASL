@@ -3,6 +3,7 @@
 #include "src/toCelsius.h"
 #include "src/toFahrenheit.h"
 #include "src/terminal-editor.h"
+#include "src/geoCalc.hpp"
 
 int main(int argc, char* argv[]) {
     if (strcmp(argv[1], "help")==0)
@@ -18,8 +19,11 @@ int main(int argc, char* argv[]) {
         toCelsius();
     }
     else if (strcmp(argv[1], "terminal-editor")==0) {
-        std::cout << "Please note this feature only works on macOS and Linux systems." << std::endl;
+        std::cout << "Please note this feature only works on macOS and Linux systems. It is also recommended that you run this while in the home directory." << std::endl;
         termEdit();
+    }
+    else if (strcmp(argv[1], "geo")==0) {
+        GEO();
     }
     else {
         std::cout << argv[0] << argv[1];
