@@ -3,9 +3,9 @@ ASL is a command line bundle tool. We intend on building this out, but currently
 # Features 
 NAN
 # W-I-P Features
-Basic Calculator
-Geometry Calculator
-Temp Converter
-Measurement Converter
+1. Basic Calculator
+2. Geometry Calculator
+3. Temp Converter
+4. Measurement Converter
 # L zealots
 Yeah a lot of this shit will be written with C inside of C++ files, but deal with it weirdo
