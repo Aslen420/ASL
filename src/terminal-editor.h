@@ -16,6 +16,7 @@ void termEdit() {
     {
         char inpt[100];
         printf("Removing current prompt... \n");
+        system("cd ~");
         system("sed -i '/PS1=/d' ./.bashrc");
         printf("Removed current profile prompt...\n");
         warp:
