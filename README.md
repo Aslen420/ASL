@@ -3,4 +3,7 @@ ASL is a command line bundle tool. We intend on building this out, but currently
 # Features 
 NAN
 # W-I-P Features
-replace this line and make a list of shit
+Basic Calculator
+Geometry Calculator
+Temp Converter
+Measurement Converter
