@@ -2,6 +2,7 @@
 #include <cstring>
 #include "src/toCelsius.h"
 #include "src/toFahrenheit.h"
+#include "src/terminal-editor.h"
 
 int main(int argc, char* argv[]) {
     if (strcmp(argv[1], "help")==0)
