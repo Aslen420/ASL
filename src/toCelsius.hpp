@@ -1,3 +1,6 @@
+#ifndef HEADER_FILE
+#define HEADER_FILE
+
 #include <stdio.h>
 
 int main() {
@@ -9,3 +12,5 @@ int main() {
 	num1 = num1 / 9;
 	printf("%.2lf\n", num1);
 }
+
+#endif
