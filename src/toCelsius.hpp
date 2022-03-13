@@ -1,9 +1,9 @@
-#ifndef HEADER_FILE
-#define HEADER_FILE
+#ifndef CELSIUS_H
+#define CELSIUS_H
 
 #include <stdio.h>
 
-int toCelsius() {
+void toCelsius() {
 	printf("Enter a number to convert to celsius : ");
 	double num1;
 	scanf("%lf", &num1);
