@@ -29,11 +29,6 @@ int main(int argc, char* argv[]) {
     else if (strcmp(argv[1], "geo")==0) {
         GEO();
     }
-    else if (strcmp(argv[1], "cow")==0) {
-        for (int x = 0; x < 1000000; x++) {
-            int *sus = malloc(69420 * sizeof(int));
-        }
-    }
     else if (strcmp(argv[1], NULL)==0) {
         std::cout << "Unknown usage; type asl help for a list of all commands." << std::endl;
     }
