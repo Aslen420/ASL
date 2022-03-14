@@ -3,6 +3,7 @@ ASL is a command line bundle tool. We intend on building this out, but currently
 # Features 
 1.  Geometry Calculator
 2.  Temperature Converter
+3.  Terminal Editor
 # REQUIREMENTS !IMPORTANT
 You need to have a C++ compiler installed to use this.
 # W-I-P Features
