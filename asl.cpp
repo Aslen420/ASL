@@ -3,9 +3,9 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-#include "src/toCelsius.hpp"
-#include "src/toFahrenheit.hpp"
-#include "src/terminal-editor.hpp"
+#include "src/toCelsius.h"
+#include "src/toFahrenheit.h"
+#include "src/terminal-editor.h"
 #include "src/geoCalc.hpp"
 #include "src/bmiCalculator.hpp"
 
