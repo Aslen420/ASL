@@ -8,13 +8,10 @@
 #include "src/terminal-editor.hpp"
 #include "src/geoCalc.hpp"
 #include "src/bmiCalculator.hpp"
-bool EXAMPLE = true;
+
 
 int main(int argc, char* argv[]) {
-
-    if (argc < 1) {
-        std::cout << "Unknown usage; type asl help for a list of all commands." << std::endl;
-    }
+    bool EXAMPLE = true;
     if (strcmp(argv[1], "help")==0)
     {
         std::cout << "fh - Celsius to Fahrenheit Converter" << std::endl;
