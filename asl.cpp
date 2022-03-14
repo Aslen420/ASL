@@ -48,7 +48,7 @@ int main(int argc, char* argv[]) {
     else {
         std::cout << argv[0] << argv[1];
     }
-    if (EXAMPLE = true;) {
+    if (EXAMPLE = true) {
         std::cout << "Incorrect usage. Use asl help for a list of commands." << std::endl;
     }
 }
