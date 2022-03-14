@@ -35,7 +35,7 @@ int main(int argc, char* argv[]) {
         GEO();
     }
      else if (strcmp(argv[1], "bmi")==0) {
-        bmi();
+        BMI();
     }
     else {
         std::cout << argv[0] << argv[1];
