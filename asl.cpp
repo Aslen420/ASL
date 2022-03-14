@@ -5,6 +5,7 @@
 #include "src/toFahrenheit.hpp"
 #include "src/terminal-editor.hpp"
 #include "src/geoCalc.hpp"
+#include "src/bmiCalculator.hpp"
 
 int main(int argc, char* argv[]) {
 
@@ -17,6 +18,7 @@ int main(int argc, char* argv[]) {
         std::cout << "ch - Fahrenheit to Celsius Converter" << std::endl;
         std::cout << "terminal-editor - Terminal Prompt Editor" << std::endl;
         std::cout << "geo - Geometry Calculator" << std::endl;
+        std::cout << "bmi - BMI Calculator" << std::endl;
     }
     else if (strcmp(argv[1], "fh")==0)
     {
@@ -31,6 +33,9 @@ int main(int argc, char* argv[]) {
     }
     else if (strcmp(argv[1], "geo")==0) {
         GEO();
+    }
+     else if (strcmp(argv[1], "bmi")==0) {
+        BMI();
     }
     else {
         std::cout << argv[0] << argv[1];
