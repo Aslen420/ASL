@@ -25,7 +25,6 @@ void GEO() {
         std::cin >> width;
         triOutput = .5 * (height * width);
         std::cout << "Output for triangle area: " << triOutput << "\n\n\n";
-        system("pause");
         break;
 
         case 'c':
@@ -35,7 +34,6 @@ void GEO() {
         circOutputCircum = 2 * PI * radius;
         std::cout << "Output for circle area: " << circOutputArea << "\n";
         std::cout << "Output for circle circumference: " << circOutputCircum << "\n\n\n";
-        system("pause");
         break;
 
         case 'r':
@@ -45,7 +43,6 @@ void GEO() {
         std::cin >> height;
         rectOutput = height * width;
         std::cout << "Rectangle area output: " << rectOutput << "\n\n\n";
-        system("pause");
         break;
 
 
