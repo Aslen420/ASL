@@ -29,10 +29,7 @@ int main(int argc, char* argv[]) {
     else if (strcmp(argv[1], "geo")==0) {
         GEO();
     }
-    else if (strcmp(argv[1], NULL)==0) {
-        std::cout << "Unknown usage; type asl help for a list of all commands." << std::endl;
-    }
-    else if (strcmp(argv[1], " ")==0) {
+    else if (argc < 1) {
         std::cout << "Unknown usage; type asl help for a list of all commands." << std::endl;
     }
     else {
