@@ -3,7 +3,7 @@
 #define BMI_H
 #include <iostream>
 
-void bmi() {
+void BMI() {
 
     char units;
     double metricHeight, imperialHeightFt, imperialHeightIn, bmi, lbs, kgs;
