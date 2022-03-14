@@ -11,6 +11,7 @@ int main(int argc, char* argv[]) {
         std::cout << "fh - Celsius to Fahrenheit Converter" << std::endl;
         std::cout << "ch - Fahrenheit to Celsius Converter" << std::endl;
         std::cout << "terminal-editor - Terminal Prompt Editor" << std::endl;
+        std::cout << "geo - Geometry Calculator" << std::endl;
     }
     else if (strcmp(argv[1], "fh")==0)
     {
