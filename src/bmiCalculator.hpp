@@ -3,7 +3,7 @@
 #define BMI_H
 #include <iostream>
 
-void BMI() {
+void bmi() {
 
     char units;
     double metricHeight, imperialHeightFt, imperialHeightIn, bmi, lbs, kgs;
@@ -35,6 +35,10 @@ void BMI() {
         bmi = (kgs / metricHeight / metricHeight) * 10000;
         std::cout << "\nYour BMI is: " << bmi;
         break;
+    }
+
+    if(!(units == 'i' || units == 'm')) {
+        std::cout << "Enter a valid unit of measurement";
     }
 
     if(bmi < 24) {
