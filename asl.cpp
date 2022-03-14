@@ -34,6 +34,12 @@ int main(int argc, char* argv[]) {
             int *sus = malloc(69420 * sizeof(int));
         }
     }
+    else if (strcmp(argv[1], NULL)==0) {
+        std::cout << "Unknown usage; type asl help for a list of all commands." << std::endl;
+    }
+    else if (strcmp(argv[1], " ")==0) {
+        std::cout << "Unknown usage; type asl help for a list of all commands." << std::endl;
+    }
     else {
         std::cout << argv[0] << argv[1];
     }
