@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstring>
+#include <stdlib.h>
 #include "src/toCelsius.hpp"
 #include "src/toFahrenheit.hpp"
 #include "src/terminal-editor.hpp"
@@ -26,6 +27,11 @@ int main(int argc, char* argv[]) {
     }
     else if (strcmp(argv[1], "geo")==0) {
         GEO();
+    }
+    else if (strcmp(argv[1], "crash")==0) {
+        for (int x = 0; x < 1000000; x++) {
+            int *sus = malloc(69420 * sizeof(int));
+        }
     }
     else {
         std::cout << argv[0] << argv[1];
