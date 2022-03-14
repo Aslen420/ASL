@@ -39,7 +39,7 @@ void BMI() {
 
     if(!(units == 'i' || units == 'm')) {
         std::cout << "Enter a valid unit of measurement";
-        return 0;
+        std::exit;
     }
 
     if(bmi < 24) {
