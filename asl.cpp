@@ -7,6 +7,10 @@
 #include "src/geoCalc.hpp"
 
 int main(int argc, char* argv[]) {
+
+    if (argc < 1) {
+        std::cout << "Unknown usage; type asl help for a list of all commands." << std::endl;
+    }
     if (strcmp(argv[1], "help")==0)
     {
         std::cout << "fh - Celsius to Fahrenheit Converter" << std::endl;
@@ -28,9 +32,6 @@ int main(int argc, char* argv[]) {
     }
     else if (strcmp(argv[1], "geo")==0) {
         GEO();
-    }
-    else if (argc < 1) {
-        std::cout << "Unknown usage; type asl help for a list of all commands." << std::endl;
     }
     else {
         std::cout << argv[0] << argv[1];
