@@ -4,11 +4,11 @@ ASL is a command line bundle tool. We intend on building this out, but currently
 1.  Geometry Calculator
 2.  Temperature Converter
 3.  Terminal Editor
+4.  BMI Calculator
 # REQUIREMENTS !IMPORTANT
 You need to have a C++ compiler installed to use this.
 # W-I-P Features
 1. Basic Calculator
 2. Measurement Converter
-3. BMI Calculator
 # L zealots
 Yeah a lot of this shit will be written with C inside of C++ files, but deal with it weirdo
