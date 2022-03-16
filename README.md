@@ -2,7 +2,7 @@
 ASL is a command line bundle tool. We intend on building this out, but currently it will be pretty bare-bones.
 
 # RELEASE - 1.0.0
-
+Current Release - 1.0.0 - Run setup.sh to compile.
 # Features 
 1.  Geometry Calculator
 2.  Temperature Converter
