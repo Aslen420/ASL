@@ -7,6 +7,7 @@
 #include "src/geoCalc.hpp"
 #include "src/bmiCalculator.hpp"
 #include "src/timer.h"
+#include "src/valConv.h"
 
 
 
@@ -22,11 +23,17 @@ int main(int argc, char* argv[]) {
         std::cout << "geo - Geometry Calculator" << std::endl;
         std::cout << "bmi - BMI Calculator" << std::endl;
         std::cout << "timer - Timer" << std::endl;
+        std::cout << "val - Measurement Converter // Currently only metric" << std::endl;
         EXAMPLE = false;
     }
     else if (strcmp(argv[1], "fh")==0)
     {
         toFahrenheit();
+        EXAMPLE = false;
+    }
+    else if (strcmp(argv[1], "val")==0)
+    {
+        val();
         EXAMPLE = false;
     }
     else if (strcmp(argv[1], "ch")==0) {
