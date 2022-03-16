@@ -8,6 +8,7 @@
 #include "src/terminal-editor.h"
 #include "src/geoCalc.hpp"
 #include "src/bmiCalculator.hpp"
+#include "src/timer.h"
 
 
 int main(int argc, char* argv[]) {
