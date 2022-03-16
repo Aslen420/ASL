@@ -4,7 +4,7 @@
 #include <stdio.h>
 void val() {
     char selec;
-    printf("Which of the following would you like to choose : \n\t A. mg > g\n\t B. g > kg\n\t C. kg > t\n\t D. g > mg\n\t E. kg > g\n\t F. t > kg\n\t > ");
+    printf("Which of the following would you like to choose : \n\t A. mg > g\n\t B. g > kg\n\t C. kg > t\n\t D. g > mg\n\t E. kg > g\n\t F. t > kg\n   > ");
     scanf("%c", &selec);
     if (selec == 'A' || selec == 'a') {
         printf("Enter a value to convert > ");
