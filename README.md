@@ -8,7 +8,7 @@ Current Release - 1.0.0 - Run setup.sh to compile.
 2.  Temperature Converter
 3.  Terminal Editor
 4.  BMI Calculator
-5.  Timer Function //Only available on Linux currently
+5.  Timer Function // only available on Linux currently
 # REQUIREMENTS !IMPORTANT
 You need to have a C++ compiler installed to use this.
 # W-I-P Features
