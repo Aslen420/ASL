@@ -21,6 +21,7 @@ int main(int argc, char* argv[]) {
         std::cout << "geo - Geometry Calculator" << std::endl;
         std::cout << "bmi - BMI Calculator" << std::endl;
         std::cout << "timer - Timer" << std::endl;
+        EXAMPLE = false;
     }
     else if (strcmp(argv[1], "fh")==0)
     {
@@ -49,7 +50,7 @@ int main(int argc, char* argv[]) {
         EXAMPLE = false;
     }
     else {
-        std::cout << argv[0] << argv[1];
+        abort();
     }
     if (EXAMPLE == true) {
         std::cout << "Incorrect usage. Use asl help for a list of commands." << std::endl;
