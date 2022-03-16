@@ -14,7 +14,7 @@ void val() {
         printf("%.3lf grams\n", pre);
 
     }
-    if (selec == 'B' || selec == 'b') {
+    else if (selec == 'B' || selec == 'b') {
         printf("Enter a value to convert > ");
         double pre;
         scanf("%lf", &pre);
@@ -22,7 +22,7 @@ void val() {
         printf("%.3lf kilograms\n", pre);
 
     }
-    if (selec == 'C' || selec == 'c') {
+    else if (selec == 'C' || selec == 'c') {
         printf("Enter a value to convert > ");
         double pre;
         scanf("%lf", &pre);
@@ -30,7 +30,7 @@ void val() {
         printf("%.3lf metric tons\n", pre);
 
     }
-    if (selec == 'D' || selec == 'd') {
+    else if (selec == 'D' || selec == 'd') {
         printf("Enter a value to convert > ");
         double pre;
         scanf("%lf", &pre);
@@ -38,7 +38,7 @@ void val() {
         printf("%.1lf milligrams\n", pre);
 
     }
-    if (selec == 'E' || selec == 'e') {
+    else if (selec == 'E' || selec == 'e') {
         printf("Enter a value to convert > ");
         double pre;
         scanf("%lf", &pre);
@@ -46,7 +46,7 @@ void val() {
         printf("%.1lf grams\n", pre);
 
     }
-    if (selec == 'F' || selec == 'f') {
+    else if (selec == 'F' || selec == 'f') {
         printf("Enter a value to convert > ");
         double pre;
         scanf("%lf", &pre);
@@ -54,6 +54,8 @@ void val() {
         printf("%.1lf kilograms\n", pre);
 
     }
+    else {
+        printf("This wasnt recognized.\n);
 }
 
 #endif
