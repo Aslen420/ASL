@@ -56,6 +56,9 @@ void val() {
     }
     else {
         printf("This wasnt recognized.\n");
+    }    
 }
+    
+    
 
 #endif
