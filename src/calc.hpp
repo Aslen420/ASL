@@ -4,7 +4,7 @@
 #include <iostream>
 #include <math.h>
 
-void calc() {
+void CALC() {
 
     // vars
     int oprt, exp, inpexp;
