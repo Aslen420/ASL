@@ -10,6 +10,6 @@ g++ asl.cpp
 mv a.out asl
 cd ~
 sed -i '/asl/d' ./.bashrc
-echo 'alias asl="./ASL/ASL/asl"' >> .bashrc
+echo 'alias asl="./.asl"' >> .bashrc
 cd ~
 echo 'Complete!'
