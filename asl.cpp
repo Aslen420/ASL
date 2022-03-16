@@ -13,7 +13,7 @@
 
 int main(int argc, char* argv[]) {
     bool EXAMPLE = true;
-    if (strcmp(argv[1], "help")==0)
+    if (strcmp(argv[1], "help")==0 || strcmp(argv[1], "-h")==0)
     {
         std::cout << "fh - Celsius to Fahrenheit Converter" << std::endl;
         std::cout << "ch - Fahrenheit to Celsius Converter" << std::endl;
