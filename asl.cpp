@@ -19,6 +19,7 @@ int main(int argc, char* argv[]) {
         std::cout << "terminal-editor - Terminal Prompt Editor" << std::endl;
         std::cout << "geo - Geometry Calculator" << std::endl;
         std::cout << "bmi - BMI Calculator" << std::endl;
+        std::cout << "timer - Timer" << std::endl;
     }
     else if (strcmp(argv[1], "fh")==0)
     {
@@ -40,6 +41,10 @@ int main(int argc, char* argv[]) {
     }
      else if (strcmp(argv[1], "bmi")==0) {
         BMI();
+        EXAMPLE = false;
+    }
+     else if (strcmp(argv[1], "timer")==0) {
+        timer();
         EXAMPLE = false;
     }
     else {
