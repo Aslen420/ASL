@@ -1,6 +1,7 @@
 
 echo 'This script will add an alias for ASL and will compile it.'
 cd ~
+rm .asl
 rm -r ASL
 mkdir ASL
 cd ASL
