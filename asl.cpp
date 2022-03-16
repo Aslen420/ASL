@@ -11,8 +11,11 @@
 #include "src/timer.h"
 
 
+
+
 int main(int argc, char* argv[]) {
     bool EXAMPLE = true;
+    while (EXAMPLE == true) {
     if (strcmp(argv[1], "help")==0 || strcmp(argv[1], "-h")==0)
     {
         std::cout << "fh - Celsius to Fahrenheit Converter" << std::endl;
@@ -50,9 +53,8 @@ int main(int argc, char* argv[]) {
         EXAMPLE = false;
     }
     else {
-        abort();
+        std::cout << "Incorrect usage. Type asl -h for a list of commands." << std::endl;
+        EXAMPLE = false;
     }
-    if (EXAMPLE == true) {
-        std::cout << "Incorrect usage. Use asl help for a list of commands." << std::endl;
     }
 }
