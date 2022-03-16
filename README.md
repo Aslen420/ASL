@@ -10,5 +10,5 @@ You need to have a C++ compiler installed to use this.
 # W-I-P Features
 1. Basic Calculator
 2. Measurement Converter
-# L zealots
-Yeah a lot of this shit will be written with C inside of C++ files, but deal with it weirdo
+# Note
+Please be aware that some features may not work on some operating systems.
