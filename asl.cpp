@@ -8,6 +8,7 @@
 #include "src/bmiCalculator.hpp"
 #include "src/timer.h"
 #include "src/valConv.h"
+#include "src/calc.hpp"
 
 
 
@@ -24,6 +25,7 @@ int main(int argc, char* argv[]) {
         std::cout << "bmi - BMI Calculator" << std::endl;
         std::cout << "timer - Timer" << std::endl;
         std::cout << "val - Measurement Converter // Currently only metric" << std::endl;
+        std::cout << "cal - Basic Calculator" << std::endl;
         EXAMPLE = false;
     }
     else if (strcmp(argv[1], "fh")==0)
@@ -55,6 +57,10 @@ int main(int argc, char* argv[]) {
     }
      else if (strcmp(argv[1], "timer")==0) {
         timer();
+        EXAMPLE = false;
+    }
+     else if (strcmp(argv[1], "cal")==0) {
+        CALC();
         EXAMPLE = false;
     }
     else {
