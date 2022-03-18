@@ -68,4 +68,5 @@ int main(int argc, char* argv[]) {
         EXAMPLE = false;
     }
     }
+    std::cout << "e" << std::endl;
 }
