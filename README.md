@@ -9,10 +9,11 @@ Current Release - 1.0.0 - Run setup.sh to compile.
 3.  Terminal Editor
 4.  BMI Calculator
 5.  Timer Function // only available on Linux currently
+6.  Basic Calculator
+7.  Measurement Converter
 # REQUIREMENTS !IMPORTANT
 You need to have a C++ compiler installed to use this.
 # W-I-P Features
-1. Basic Calculator
-2. Measurement Converter
+NAN
 # Note
 Please be aware that some features may not work on some operating systems.
