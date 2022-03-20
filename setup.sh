@@ -11,7 +11,12 @@ g++ asl.cpp
 mv a.out .asl
 cp .asl ~/
 cd ~
-sed -i '/asl/d' ./.bashrc
-echo 'alias asl="./.asl"' >> .bashrc
+if [ $SHELL = "/usr/bin/fish" ]; then
+  sed -i '/asl/d' ~/.config/fish/config.fish
+  echo 'alias asl="./.asl"' >> ~/.config/fish/config.fish
+else
+  sed -i '/asl/d' ./.bashrc
+  echo 'alias asl="./.asl"' >> .bashrc
+fi
 rm -r ASL
 echo 'Complete!'
