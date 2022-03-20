@@ -26,7 +26,7 @@ int main(int argc, char* argv[]) {
         std::cout << "timer - Timer // only for Linux" << std::endl;
         std::cout << "val - Measurement Converter // Currently only metric" << std::endl;
         std::cout << "cal - Basic Calculator" << std::endl;
-        std::cout << "chshell - Changes the default shell for the user // !fish, !bash, !zsh | useage : $ asl chshell !fish | You need to have the shell installed" << std::endl;
+        std::cout << "chshell - Changes the default shell for the user // !fish, !bash, !zsh | useage : $ asl chshell !fish |                           You need to have the shell installed" << std::endl;
         EXAMPLE = false;
     }
     else if (strcmp(argv[1], "fh")==0)
