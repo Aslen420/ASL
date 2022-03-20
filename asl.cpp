@@ -63,15 +63,15 @@ int main(int argc, char* argv[]) {
         CALC();
         EXAMPLE = false;
     }
-     else if (strcmp(argv[1], "chshell" && strcmp(argv[2], "zsh"))==0) {
+     else if (strcmp(argv[1], "chshell")==0 && strcmp(argv[2], "zsh")==0) {
         system("chsh -s /usr/bin/zsh");
         EXAMPLE = false;
     }
-     else if (strcmp(argv[1], "chshell" && strcmp(argv[2], "fish"))==0) {
+     else if (strcmp(argv[1], "chshell")==0 && strcmp(argv[2], "fish")==0) {
         system("chsh -s /usr/bin/fish");
         EXAMPLE = false;
     }
-     else if (strcmp(argv[1], "chshell" && strcmp(argv[2], "bash"))==0) {
+     else if (strcmp(argv[1], "chshell")==0 && strcmp(argv[2], "bash")==0) {
         system("chsh -s /usr/bin/bash");
         EXAMPLE = false;
     }
