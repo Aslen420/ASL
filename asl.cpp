@@ -47,7 +47,7 @@ int main(int argc, char* argv[]) {
         termEdit();
         EXAMPLE = false;
     }
-    else if (strcmp(argv[1], "oba")==0) {
+    else if (strcmp(argv[1], "geo")==0) {
         GEO();
         EXAMPLE = false;
     }
