@@ -23,9 +23,10 @@ int main(int argc, char* argv[]) {
         std::cout << "terminal-editor - Terminal Prompt Editor" << std::endl;
         std::cout << "geo - Geometry Calculator" << std::endl;
         std::cout << "bmi - BMI Calculator" << std::endl;
-        std::cout << "timer - Timer" << std::endl;
+        std::cout << "timer - Timer // only for Linux" << std::endl;
         std::cout << "val - Measurement Converter // Currently only metric" << std::endl;
         std::cout << "cal - Basic Calculator" << std::endl;
+        std::cout << "chshell (options: zsh, bash, fish) - Changes the default shell for the user // useage : $ asl chshell fish" << std::endl;
         EXAMPLE = false;
     }
     else if (strcmp(argv[1], "fh")==0)
