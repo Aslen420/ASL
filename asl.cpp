@@ -16,9 +16,6 @@
 int main(int argc, char* argv[]) {
     bool EXAMPLE = true;
     while (EXAMPLE == true) {
-    if (getuid() !=0) {
-        std::cout << "\tAvoid Running ASL as Root" << std::endl;
-    }
     if (strcmp(argv[1], "help")==0 || strcmp(argv[1], "-h")==0)
     {
         std::cout << "fh - Celsius to Fahrenheit Converter" << std::endl;
