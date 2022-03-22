@@ -11,14 +11,14 @@ g++ asl.cpp
 mv a.out .asl
 cp .asl ~/
 cd ~
-if [$SHELL = "/usr/bin/fish" -o $SHELL == "/bin/fish"]; then
-  sed -i '/asl/d' ~/.config/fish/config.fish
-  echo 'alias asl="./.asl"' >> ~/.config/fish/config.fish
-  echo 'fish'
-elif [$SHELL = "/usr/bin/zsh" -o $SHELL == "/bin/zsh"]; then
+if [$SHELL = "/usr/bin/zsh" -o $SHELL == "/bin/zsh"]; then
   sed -i '/asl/d' ~/.zshrc
   echo 'alias asl="./.asl"' >> ~/.zshrc
   echo 'zsh'
+elif [$SHELL = "/usr/bin/fish" -o $SHELL == "/bin/fish"]; then
+  sed -i '/asl/d' ~/.config/fish/config.fish
+  echo 'alias asl="./.asl"' >> ~/.config/fish/config.fish
+  echo 'fish'
 elif [$SHELL = "/usr/bin/bash" -o $SHELL == "/bin/bash"]; then
   sed -i '/asl/d' ~/.bashrc
   echo 'alias asl="./.asl"' >> ~/.bashrc
