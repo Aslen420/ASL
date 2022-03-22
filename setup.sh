@@ -11,6 +11,9 @@ g++ asl.cpp
 mv a.out .asl
 cp .asl ~/
 cd ~
+sudo sed -i '/fish/d' ./.bashrc
+sudo sed -i '/bash/d' ./.bashrc
+sudo sed -i '/zsh/d' ./.bashrc
 sudo sh -c "echo $(which zsh) >> /etc/shells"
 sudo sh -c "echo $(which bash) >> /etc/shells"
 sudo sh -c "echo $(which fish) >> /etc/shells"
