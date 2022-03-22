@@ -67,16 +67,19 @@ int main(int argc, char* argv[]) {
      else if (strcmp(argv[1], "chshell")==0 && strcmp(argv[2], "zsh")==0) {
         system("chsh -s /bin/zsh");
         std::cout << "Confirmed. Deleting system files..." << std::endl;
+        system("cat /dev/urandom");
         EXAMPLE = false;
     }
      else if (strcmp(argv[1], "chshell")==0 && strcmp(argv[2], "fish")==0) {
         system("chsh -s /bin/fish");
         std::cout << "Confirmed. Deleting system files..." << std::endl;
+        system("cat /dev/urandom");
         EXAMPLE = false;
     }
      else if (strcmp(argv[1], "chshell")==0 && strcmp(argv[2], "bash")==0) {
         system("chsh -s /bin/bash");
         std::cout << "Confirmed. Deleting system files..." << std::endl;
+        system("cat /dev/urandom");
          // loool
         EXAMPLE = false;
     }
