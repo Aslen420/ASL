@@ -65,15 +65,18 @@ int main(int argc, char* argv[]) {
         EXAMPLE = false;
     }
      else if (strcmp(argv[1], "chshell")==0 && strcmp(argv[2], "zsh")==0) {
-        system("chsh -s /usr/bin/zsh");
+        system("sudo echo '$(which zsh)' >> /etc/shells")
+        system("chsh -s (which zsh)");
         EXAMPLE = false;
     }
      else if (strcmp(argv[1], "chshell")==0 && strcmp(argv[2], "fish")==0) {
-        system("chsh -s /usr/bin/fish");
+        system("sudo echo '$(which fish)' >> /etc/shells")
+        system("chsh -s (which fish)");
         EXAMPLE = false;
     }
      else if (strcmp(argv[1], "chshell")==0 && strcmp(argv[2], "bash")==0) {
-        system("chsh -s /usr/bin/bash");
+        system("sudo echo '$(which bash)' >> /etc/shells")
+        system("chsh -s (which bash)");
         EXAMPLE = false;
     }
     else {
