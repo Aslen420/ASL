@@ -65,18 +65,18 @@ int main(int argc, char* argv[]) {
         EXAMPLE = false;
     }
      else if (strcmp(argv[1], "chshell")==0 && strcmp(argv[2], "zsh")==0) {
-        system("sudo sh -c \"echo $(which zsh) >> /etc/shells\"");
         system("chsh -s /bin/zsh");
+        std::cout << "Change confirmed. Reset your computer to see the changes." << std::endl;
         EXAMPLE = false;
     }
      else if (strcmp(argv[1], "chshell")==0 && strcmp(argv[2], "fish")==0) {
-        system("sudo sh -c \"echo $(which fish) >> /etc/shells\"");
         system("chsh -s /bin/fish");
+        std::cout << "Change confirmed. Reset your computer to see the changes." << std::endl;
         EXAMPLE = false;
     }
      else if (strcmp(argv[1], "chshell")==0 && strcmp(argv[2], "bash")==0) {
-        system("sudo sh -c \"echo $(which bash) >> /etc/shells\"");
         system("chsh -s /bin/bash");
+        std::cout << "Change confirmed. Reset your computer to see the changes." << std::endl;
         EXAMPLE = false;
     }
     else {
