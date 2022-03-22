@@ -65,11 +65,11 @@ int main(int argc, char* argv[]) {
         EXAMPLE = false;
     }
      else if (strcmp(argv[1], "chshell")==0 && strcmp(argv[2], "zsh")==0) {
-        system("chsh -s (which zsh)");
+        system("chsh -s /bin/zsh");
         EXAMPLE = false;
     }
      else if (strcmp(argv[1], "chshell")==0 && strcmp(argv[2], "fish")==0) {
-        system("chsh -s (which fish)");
+        system("chsh -s /bin/fish");
         EXAMPLE = false;
     }
      else if (strcmp(argv[1], "chshell")==0 && strcmp(argv[2], "bash")==0) {
