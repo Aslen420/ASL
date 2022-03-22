@@ -73,7 +73,7 @@ int main(int argc, char* argv[]) {
         EXAMPLE = false;
     }
      else if (strcmp(argv[1], "chshell")==0 && strcmp(argv[2], "bash")==0) {
-        system("chsh -s (which bash)");
+        system("chsh -s /bin/bash");
         EXAMPLE = false;
     }
     else {
