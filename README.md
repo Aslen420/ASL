@@ -17,3 +17,5 @@ You need to have a C++ compiler installed to use this.
 NAN
 # Note
 Please be aware that some features may not work on some operating systems.
+# March 23 
+I am going to be adding some functions that im working on for the Fish and Bash shells, I may add a function in ASL to add them to your config files.
