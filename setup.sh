@@ -11,12 +11,6 @@ g++ asl.cpp
 mv a.out .asl
 cp .asl ~/
 cd ~
-sudo sed -i '/fish/d' /etc/shells
-sudo sed -i '/bash/d' /etc/shells
-sudo sed -i '/zsh/d' /etc/shells
-sudo sh -c "echo /bin/zsh >> /etc/shells"
-sudo sh -c "echo /bin/fish >> /etc/shells"
-sudo sh -c "echo /bin/bash >> /etc/shells"
 if [ $SHELL = "/usr/bin/zsh" -o $SHELL == "/bin/zsh" ]; then
   sed -i '/asl/d' ~/.zshrc
   echo 'alias asl="./.asl"' >> ~/.zshrc
