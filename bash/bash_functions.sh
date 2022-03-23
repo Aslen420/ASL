@@ -1,6 +1,6 @@
 #!/bin/bash
 
 function mkd {
-  mkdir $argv
-  cd $argv
+  mkdir $1
+  cd $1
 }
